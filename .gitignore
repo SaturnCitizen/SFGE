@@ -1,3 +1,6 @@
+# Ne pas push le dossier build
+/Build
+
 # Prerequisites
 *.d
 
