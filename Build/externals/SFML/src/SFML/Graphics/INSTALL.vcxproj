@@ -63,7 +63,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -85,7 +85,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -107,7 +107,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -129,7 +129,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>

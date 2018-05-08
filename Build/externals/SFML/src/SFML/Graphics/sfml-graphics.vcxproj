@@ -83,7 +83,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -100,10 +100,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;STBI_FAILURE_USERMSG;CMAKE_INTDIR=\"Debug\";SFML_GRAPHICS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -127,7 +127,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -143,10 +143,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;STBI_FAILURE_USERMSG;CMAKE_INTDIR=\"Release\";SFML_GRAPHICS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -170,7 +170,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -186,10 +186,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;STBI_FAILURE_USERMSG;CMAKE_INTDIR=\"MinSizeRel\";SFML_GRAPHICS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -213,7 +213,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -229,10 +229,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;STBI_FAILURE_USERMSG;CMAKE_INTDIR=\"RelWithDebInfo\";SFML_GRAPHICS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\SAE\SFGE_versionFonct\SFGE\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\include;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\src;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\stb_image;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\jpeg;D:\SAE\SFGE_versionFonct\SFGE\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
