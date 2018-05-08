@@ -24,6 +24,8 @@ SOFTWARE.
 
 #ifndef SFGE_P2VECTOR_H
 #define SFGE_P2VECTOR_H
+#define _USE_MATH_DEFINES
+#include "cmath"
 
 struct p2Vec3;
 
@@ -64,7 +66,7 @@ struct p2Vec2
 	void Normalize();
 
 	/**
-	* \brief 
+	* \brief
 	*/
 	p2Vec3 to3();
 
@@ -76,7 +78,15 @@ struct p2Vec2
 struct p2Vec3
 {
 	p2Vec3();
+
 	p2Vec3(float x, float y, float z);
+
+	p2Vec3 operator+(p2Vec3 v);
+	p2Vec3 operator+=(p2Vec3 v);
+	p2Vec3 operator-(p2Vec3 v);
+	p2Vec3 operator-=(p2Vec3 v);
+	p2Vec3 operator /(float f);
+	p2Vec3 operator *(float f);
 	/**
 	* \brief Dot product of two vectors
 	*/

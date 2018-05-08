@@ -32,6 +32,11 @@ SOFTWARE.
 */
 struct p2AABB
 {
+	p2AABB();
+	p2AABB(p2Vec2 position, p2Vec2 size);
+
+	p2AABB(p2Vec2 position , float radius);
+
 	p2Vec2 bottomLeft;
 	p2Vec2 topRight;
 
@@ -43,5 +48,7 @@ struct p2AABB
 	* \brief Calculate the extends and return it
 	*/
 	p2Vec2 GetExtends();
+
+	void SetPosition(p2Vec2 v);
 };
 #endif // !SFGE_P2AABB:H

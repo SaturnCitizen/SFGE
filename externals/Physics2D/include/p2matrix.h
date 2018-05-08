@@ -30,7 +30,7 @@ SOFTWARE.
 struct p2Mat22
 {
 	p2Mat22();
-	p2Mat22(p2Vec2 r1, p2Vec2 r2) ;
+	p2Mat22(p2Vec2 r1, p2Vec2 r2);
 
 	p2Mat22 operator+(p2Mat22 m1);
 	p2Mat22 operator-(p2Mat22 m1);
@@ -69,5 +69,6 @@ struct p2Mat33
 
 	p2Vec3 rows[3] = {};
 };
+
 
 #endif

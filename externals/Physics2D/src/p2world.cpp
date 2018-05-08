@@ -26,11 +26,12 @@ SOFTWARE.
 
 p2World::p2World(p2Vec2 gravity): m_Gravity(gravity)
 {
-
+	return;
 }
 
 void p2World::Step(float dt)
 {
+
 }
 
 p2Body * p2World::CreateBody(p2BodyDef* bodyDef)

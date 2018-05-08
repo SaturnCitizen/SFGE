@@ -32,11 +32,15 @@ SOFTWARE.
 */
 class p2Shape
 {
+	virtual void f();
+public:
+	float GetRadius();
 
+	float Radius;
 };
 
 /**
-* \brief Representation of a physics circle
+* \brief Representation of a circle
 */
 class p2CircleShape : public p2Shape
 {
@@ -45,17 +49,21 @@ public:
 	* \brief Setter for the radius
 	*/
 	void SetRadius(float radius);
+
+	float GetRadius();
+
 private:
 	float m_Radius;
 };
 
-/** 
+/**
 * \brief Representation of a rectangle
 */
 class p2RectShape : public p2Shape
 {
 public:
 	void SetSize(p2Vec2 size);
+	p2Vec2 GetSize();
 private:
 	p2Vec2 m_Size;
 };

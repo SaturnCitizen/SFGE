@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\SAE\SFGE_versionFonct\SFGE\Build\CMakeFiles\f6d3aeb58fdc5d7a4c095ae3cddbc9b8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{358AC6A4-A51B-39DD-BB2C-D0EAEB92D499}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

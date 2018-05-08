@@ -22,6 +22,14 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 #include <p2body.h>
+#include "iostream"
+
+p2Body::p2Body(p2BodyDef * bodydef)
+{
+	this->position = bodydef->position;
+	this->linearVelocity = bodydef->position;
+	this->type = bodydef->type;
+}
 
 p2Vec2 p2Body::GetLinearVelocity()
 {
@@ -42,7 +50,41 @@ p2Vec2 p2Body::GetPosition()
 	return position;
 }
 
-p2Collider * p2Body::CreateCollider(p2ColliderDef * colliderDef)
+p2AABB p2Body::GetAABB()
+{
+	return p2AABB(this->aabb);
+}
+
+void p2Body::SetPosition(p2Vec2 v)
+{
+	position = position + v;
+	aabb.SetPosition(v);
+}
+
+p2BodyType p2Body::GetType()
+{
+	return this->type;
+}
+
+p2Collider * p2Body::GetCollider()
 {
 	return nullptr;
 }
+
+	p2Collider * p2Body::CreateCollider(p2ColliderDef * colliderDef)
+{
+	if (p2CircleShape* d = dynamic_cast<p2CircleShape*>(colliderDef->shape)) 
+	{
+		this->aabb = p2AABB(GetPosition(), d->GetRadius());
+	}
+	else if (p2RectShape* d = dynamic_cast<p2RectShape*>(colliderDef->shape)) 
+	{
+
+	};
+	return (this->collider);
+}
+
+	bool p2Body::CheckContact(p2Body * b)
+	{
+		return false;
+	}
